@@ -1,3 +1,5 @@
+# MINORITY ODD OR EVEN REMOVER
+# __________________________________________________________________________________________
 # VARIABLE
 # - Localize language: ID
 textListNum='Jumlah angka yang ingin diproses: '

@@ -1,3 +1,5 @@
+# VOWEL REMOVER
+# __________________________________________________________________________________________
 # VARIABLE
 # - Localize language: ID
 textIn='Masukan kata yang akan dihapus huruf vokalnya:'

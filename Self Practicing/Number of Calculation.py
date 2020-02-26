@@ -1,3 +1,5 @@
+# NUMBER OF CALCULATION
+# __________________________________________________________________________________________
 # VARIABLE
 # - Localize language: ID
 textOpen=(
