@@ -3,16 +3,16 @@
 # VARIABLE
 # - Localize language: ID
 textOpen=(
-    'Diketahui fungsi x akan mengalikan antar digit angka yang dimasukan.\n'
-    'Program ini dapat mengetahui berapa kali fungsi x akan diproses\n'
-    'sampai didapatkan angka terakhir yang berjumlah 1 digit\n'
-    'sehingga tidak dapat lagi diproses oleh fungsi x.\n\n'
-    'Misal:\n'
-    'Angka yang dimasukan: 399\n'
-    '399: 3 x 3 x 9 = 243 (pertama)\n'
-    '243: 2 x 4 x 3 = 24  (kedua)\n'
-    '24 : 2 x 4     = 8   (ketiga)\n'
-    'Angka 399 dapat dikalkulasikan dengan fungsi x sebanyak 3 kali\n'
+    'Diketahui fungsi x akan mengalikan antar digit angka yang dimasukan.',
+    'Program ini dapat mengetahui berapa kali fungsi x akan diproses',
+    'sampai didapatkan angka terakhir yang berjumlah 1 digit',
+    'sehingga tidak dapat lagi diproses oleh fungsi x.',
+    'Misal:',
+    'Angka yang dimasukan: 399',
+    '399: 3 x 3 x 9 = 243 (pertama)',
+    '243: 2 x 4 x 3 = 24  (kedua)',
+    '24 : 2 x 4     = 8   (ketiga)',
+    'Angka 399 dapat dikalkulasikan dengan fungsi x sebanyak 3 kali'
 )
 textIn='Angka yang dimasukan: '
 textOut=('Angka','dapat dikalkulasikan dengan fungsi x sebanyak','kali')
@@ -34,7 +34,8 @@ def numCalc(numIn):
     return check
 # __________________________________________________________________________________________
 # PROGRAM
-print(textOpen)
+textOpenJoin='\n'.join(textOpen)
+print(f'{textOpenJoin}\n')
 numIn=input(textIn)
 numCalc=numCalc(numIn)
 print(f'{textOut[0]} {numIn} {textOut[1]} {numCalc} {textOut[2]}')

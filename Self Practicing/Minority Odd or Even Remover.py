@@ -2,10 +2,10 @@
 # __________________________________________________________________________________________
 # VARIABLE
 # - Localize language: ID
-textListNum='Jumlah angka yang ingin diproses: '
+textListNum='Jumlah angka yang ingin diproses:'
 textNumIn='Masukan angka ke-'
 textListIn='List yang akan diproses:'
-textListOut='List hasil Minority Odd or Even Remover:'
+textListOut='List hasil penghapusan:'
 # __________________________________________________________________________________________
 # FUNCTION
 def minorityRemover(listIn):
@@ -28,7 +28,7 @@ def listNumIn(listNum):
     return listIn
 # __________________________________________________________________________________________
 # PROGRAM
-listNum=int(input(textListNum))
+listNum=int(input(f'{textListNum} '))
 listIn=listNumIn(listNum)
 print(f'\n{textListIn}\n{listIn}')
 listOut=minorityRemover(listIn)
